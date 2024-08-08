@@ -70,7 +70,7 @@ This section should describe the process you went through to deploy the project 
   - From the source section drop-down menu, select the main branch
   - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://8000-olutobi1996-generalknow-a9v33qyb9yk.ws.codeinstitute-ide.net/
 
 
 ## Credits 
