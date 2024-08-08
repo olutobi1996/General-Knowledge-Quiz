@@ -58,6 +58,14 @@ Featured at the top of the page, the Quiz Game logo and heading is easy to see f
 - CSS
   - No errors were found when passing through the official [(Jigsaw)]https://jigsaw.w3.org/css-validator/validator?uri=+https%3A%2F%2Folutobi1996.github.io%2FGeneral-Knowledge-Quiz%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
 
+- JavaScript
+No errors were found when passing through the official Jshint validator
+The following metrics were returned:
+There are 11 functions in this file.
+Function with the largest signature takes 2 arguments, while the median is 0.
+Largest function has 10 statements in it, while the median is 3.
+The most complex function has a cyclomatic complexity value of 4 while the median is 2.
+
 ### Unfixed Bugs
 There were no unfixed bugs in the final code but for days i had "favicon error" in devtools as i havent added a favicon for this project as there were no icons necessary.
 

@@ -99,8 +99,8 @@ function selectAnswer(e){
     const selectedBtn = e.target;
     const isCorrect = selectedBtn.dataset.correct === "true";
     if(isCorrect) {
-        score++
-        document.getElementById("score").innerHTML = "Score: " + score + "/6"
+        score++;
+        document.getElementById("score").innerHTML = "Score: " + score + "/6";
         selectedBtn.classList.add("correct");
     } else {
         selectedBtn.classList.add("incorrect");
@@ -115,12 +115,12 @@ function selectAnswer(e){
 }
 
 function nextQuestion() {
-    currentQuestionIndex++
+    currentQuestionIndex++;
     if (currentQuestionIndex > 5) {
-        startQuiz()
+        startQuiz();
         return
     }
-    showQuestion()
+    showQuestion();
 }
 
 
