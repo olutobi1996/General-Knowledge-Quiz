@@ -68,13 +68,13 @@ function startQuiz(){
     currentQuestionIndex = 0;
     score = 0;
     nextButton.innerHTML = "next";
-    nextButton.addEventListener("click", nextQuestion)
+    nextButton.addEventListener("click", nextQuestion);
     showQuestion();
 }
 
 function showQuestion() {
     resetState();
-    let currentQuestion = questions[currentQuestionIndex]
+    let currentQuestion = questions[currentQuestionIndex];
     let questionNo = currentQuestionIndex + 1;
     questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
 
@@ -119,7 +119,7 @@ function nextQuestion() {
     if (currentQuestionIndex > 5) {
         startQuiz();
         return
-    }
+    };
     showQuestion();
 }
 
