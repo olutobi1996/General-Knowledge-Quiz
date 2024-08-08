@@ -57,9 +57,6 @@ const questions = [
 
 const questionElement = document.getElementById("question");
 const nextButton = document.getElementById("next");
-const resultElement = document.getElementById('result'); 
- 
-
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -92,7 +89,7 @@ function showQuestion() {
 
 function resetState(){
     nextButton.style.display = "none";
-    document.getElementById("answer-buttons").innerHTML = ""
+    document.getElementById("answer-buttons").innerHTML = "";
 }
 
 function selectAnswer(e){
@@ -118,8 +115,8 @@ function nextQuestion() {
     currentQuestionIndex++;
     if (currentQuestionIndex > 5) {
         startQuiz();
-        return
-    };
+        return;
+    }
     showQuestion();
 }
 

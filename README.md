@@ -61,10 +61,11 @@ Featured at the top of the page, the Quiz Game logo and heading is easy to see f
 - JavaScript
 No errors were found when passing through the official Jshint validator
 The following metrics were returned:
-There are 11 functions in this file.
-Function with the largest signature takes 2 arguments, while the median is 0.
-Largest function has 10 statements in it, while the median is 3.
-The most complex function has a cyclomatic complexity value of 4 while the median is 2.
+There are 7 functions in this file.
+Function with the largest signature take 1 arguments, while the median is 0.
+Largest function has 9 statements in it, while the median is 5.
+
+The most complex function has a cyclomatic complexity value of 2 while the median is 2.
 
 ### Unfixed Bugs
 There were no unfixed bugs in the final code but for days i had "favicon error" in devtools as i havent added a favicon for this project as there were no icons necessary.
