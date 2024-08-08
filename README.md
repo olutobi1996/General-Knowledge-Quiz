@@ -54,12 +54,12 @@ Featured at the top of the page, the Quiz Game logo and heading is easy to see f
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator]https://validator.w3.org/nu/?doc=https%3A%2F%2Folutobi1996.github.io%2Fpure-souls%2F 
+  - No errors were returned when passing through the official [W3C validator]https://validator.w3.org/nu/?doc=https%3A%2F%2Folutobi1996.github.io%2FGeneral-Knowledge-Quiz%2F
 - CSS
-  - No errors were found when passing through the official [(Jigsaw)]https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Folutobi1996.github.io%2Fpure-souls%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=envalidator#warnings)
+  - No errors were found when passing through the official [(Jigsaw)]https://jigsaw.w3.org/css-validator/validator?uri=+https%3A%2F%2Folutobi1996.github.io%2FGeneral-Knowledge-Quiz%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
 
 ### Unfixed Bugs
-There were no unfixed bugs in the final code but for days i had W3C validator show i had a "parse erorr" problem with my footer tag. For days i spent trying to solve problem on my own by using google and looking back through the project "love running", but still had no luck. So in the end with help from my tutor and slack team we solved the problem, it was simple error of putting footer tag within the body tag.
+There were no unfixed bugs in the final code but for days i had "favicon error" in devtools as i havent added a favicon for this project as there were no icons necessary.
 
 ## Deployment
 
