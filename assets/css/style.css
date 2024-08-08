@@ -1,0 +1,49 @@
+body {
+    background-color: blueviolet;
+        font-family: "Indie Flower", cursive;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+      }
+
+.q-box {
+background-color: white;
+max-width: 400px;
+width: 80%;
+margin: 100px auto 0;
+border-radius: 5px;
+padding: 20px;
+}
+
+.btn {
+    background-color: white;
+    padding: 20px;
+    text-align: left;
+    border-radius: 10px;
+    width: 100%;
+    border: 5px solid #000;
+    cursor: pointer;
+    }
+
+     .btn:hover{
+    background-color: blueviolet;
+    }
+
+    #next{
+    background-color: white;
+    color: hsl(252, 54%, 61%);
+    padding: 10px;
+    width: 80px;
+    border-radius: 10px;
+    border: 5px solid #000;
+    cursor: pointer;
+    }
+
+.correct {
+background-color: #7cc558;
+}
+
+
+.incorrect {
+    background-color: #ff0000;
+}
