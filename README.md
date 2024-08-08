@@ -68,7 +68,7 @@ Largest function has 9 statements in it, while the median is 5.
 The most complex function has a cyclomatic complexity value of 2 while the median is 2.
 
 ### Unfixed Bugs
-There were no unfixed bugs in the final code but for days i had "favicon error" in devtools as i havent added a favicon for this project as there were no icons necessary.
+There were no unfixed bugs in the final code but for days i had "favicon error" in devtools as i havent added a favicon for this project as there were no icons necessary. Also in JSHint there were version errors found, if the software was not up to date the javascript on that particular machine may not work.
 
 ## Deployment
 
@@ -87,18 +87,11 @@ The live link can be found here - https://8000-olutobi1996-generalknow-a9v33qyb9
 
 ### Content 
 
-- The icons in the Header were taken from [Font Awesome](https://fontawesome.com/)
-- The text for in-depth & techniques was knowledge from over the years.
-- how to style the layout of column layout was isnpired by https://www.w3schools.com/
-- Instructions on how to implement form validation & how to write the html code was on the Sign up form was taken from  
- inspiration from my [Love Running Project]
- - Table format was inspired by (https://codeinstitue.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The layout style was inspired by(https://www.youtube.com/watch?v=PBcqGxrr9g8) & (https://codeinstitue.com/)
+- The text styling was used from https://fonts.google.com/
+- General Knowledge Quiz Questions were made up by me
 
 ### Media
 
 - Both of the photos used on the page are used from https://www.pexels.com/
 - This site is a free image website
-
-- 'How to meditate for beginners' was taken from (https://www.youtube.com/) 
-- I clicked on the video and below the video there was a share button i then copied the code.
