@@ -2,7 +2,7 @@
  Quiz game is a site that hopes to demonstrate how pure JavaScript works in a real-world context. The site will be targeted toward people who not only love to implement more advanced JavaScript concepts but also general knowledge questions. Quiz Game is a fully responsive JavaScript Quiz Game that will allow users to challenge their general knowledge. It does this by asking the user of the website 6 random general knowledge quiz questions.
 
  
-![Screenshot-pure-souls](https://github.com/olutobi1996/pure-souls/assets/169264552/9eca13f0-275d-4ec3-8659-40f1adb80f9b)
+![Screenshot-General-Knowledge-Quiz](https://ui.dev/amiresponsive?url=https://olutobi1996.github.io/General-Knowledge-Quiz/)
 
 ### Existing Features
 
@@ -79,7 +79,7 @@ This section should describe the process you went through to deploy the project 
   - From the source section drop-down menu, select the main branch
   - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://8000-olutobi1996-generalknow-a9v33qyb9yk.ws.codeinstitute-ide.net/
+The live link can be found here - https://olutobi1996.github.io/General-Knowledge-Quiz/
 
 
 ## Credits 
