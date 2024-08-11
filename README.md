@@ -2,7 +2,7 @@
  Quiz game is a site that hopes to demonstrate how pure JavaScript works in a real-world context. The site will be targeted toward people who not only love to implement more advanced JavaScript concepts but also general knowledge questions. Quiz Game is a fully responsive JavaScript Quiz Game that will allow users to challenge their general knowledge. It does this by asking the user of the website 6 random general knowledge quiz questions.
 
  
-![Screenshot-General-Knowledge-Quiz](https://ui.dev/amiresponsive?url=https://olutobi1996.github.io/General-Knowledge-Quiz/)
+![Screenshot-General-Knowledge-Quiz](![alt text](image.png))
 
 ### Existing Features
 
