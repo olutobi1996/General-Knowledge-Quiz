@@ -1,3 +1,6 @@
+/* These are the const Quiz Questions
+ will will remain the same throughout
+*/
 const questions = [
     {
         question: "what football team won the world cup in 1966?",
@@ -55,12 +58,23 @@ const questions = [
     }
 ];
 
+/* The code below will change
+the questions
+and the next question will be shown to 
+user using next button
+*/ 
 const questionElement = document.getElementById("question");
 const nextButton = document.getElementById("next");
 
+/* The code below represents
+the current question that is being
+asked
+*/ 
 let currentQuestionIndex = 0;
 let score = 0;
 
+
+// Start Quiz function whic includes an event listner from the user
 function startQuiz() {
     currentQuestionIndex = 0;
     score = 0;
@@ -69,6 +83,11 @@ function startQuiz() {
     showQuestion();
 }
 
+/* The code below will change
+the questions
+and the next question will be shown to 
+user using next button
+*/ 
 function showQuestion() {
     resetState();
     let currentQuestion = questions[currentQuestionIndex];
@@ -87,10 +106,17 @@ function showQuestion() {
     });
 }
 
+//reset state function
+
 function resetState() {
     nextButton.style.display = "none";
     document.getElementById("answer-buttons").innerHTML = "";
 }
+
+/* The code below is a loop 
+to see if the question answered is true
+and if correct the socre will add 1
+*/ 
 
 function selectAnswer(e) {
     const selectedBtn = e.target;
@@ -111,6 +137,11 @@ function selectAnswer(e) {
     nextButton.style.display = "block";
 }
 
+/* Next Question function,
+includes a loop which returns the start of 
+the quiz once the user is on the last question
+*/ 
+
 function nextQuestion() {
     currentQuestionIndex++;
     if (currentQuestionIndex > 5) {
@@ -120,5 +151,6 @@ function nextQuestion() {
     showQuestion();
 }
 
+//Start Quiz funtion
 
 startQuiz();
