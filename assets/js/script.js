@@ -168,5 +168,11 @@ function myTimer() {
     }
 }
 
+ document.querySelector('.restart-btn').addEventListener('click', function(){
+    window.location.reload();
+    return false;
+  });
+
+
 //Start Quiz funtion
 startQuiz();

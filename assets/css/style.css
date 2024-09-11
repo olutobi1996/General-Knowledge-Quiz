@@ -61,3 +61,13 @@ body {
     font-family: fantasy;
     color: #7cc558;
 }
+
+.restart-btn {
+    background-color: white;
+    color: hsl(252, 54%, 61%);
+    padding: 10px;
+    width: 90px;
+    border-radius: 10px;
+    border: 5px solid #000;
+    cursor: pointer;
+}
