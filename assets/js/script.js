@@ -1,5 +1,7 @@
 /* These are the const Quiz Questions
- will will remain the same throughout
+ will will remain the same throughout, 
+ This section of code was also adapted from a 
+ quiz video online i have referenced in my README.MD
 */
 const questions = [
     {

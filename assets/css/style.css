@@ -54,3 +54,10 @@ body {
     font-family: fantasy;
     color: #ff0000;
 }
+
+#score {
+    font-weight: 400;
+    font-style: italic;
+    font-family: fantasy;
+    color: #7cc558;
+}
