@@ -73,6 +73,10 @@ asked
 let currentQuestionIndex = 0;
 let score = 0;
 
+// Timer variables
+let sec = 60;
+let time = setInterval(myTimer, 1000);
+
 
 // Start Quiz function whic includes an event listner from the user
 function startQuiz() {
@@ -151,6 +155,16 @@ function nextQuestion() {
     showQuestion();
 }
 
-//Start Quiz funtion
+//Timer function for questions
 
+function myTimer() {
+    document.getElementById('timer').innerHTML = sec + "seconds left";
+    sec--;
+    if (sec == -1) {
+        clearInterval(time);
+        alert("Your Time Is Up, Sorry!");
+    }
+}
+
+//Start Quiz funtion
 startQuiz();
