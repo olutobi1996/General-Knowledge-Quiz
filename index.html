@@ -2,13 +2,21 @@
 <html lang="en">
 
 <head>
+    <!-- Font Awesome icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <meta charset="UTF-8">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Google Sheets -->
     <link
         href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
         rel="stylesheet">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Quiz Game</title>
@@ -18,8 +26,8 @@
     <!-- Question Box -->
     <div class="q-box">
 
-        <!-- Light Bulb image -->
-        <img src="/assets/images/lightbulb.jpg" alt="light bulb with cloud round it" style="width: 200px;height:150px;">
+        <!-- Quiz Icon -->
+        <img src="assets/images/quiz-icon.png" alt="Quiz Game Icon" style="width:180px;px;height:180px;px;">
         <h1> General Knowledge Quiz</h1>
         <div class="quiz">
             <h2 id="question"> Question Goes here</h2>
@@ -35,14 +43,18 @@
             <!-- Next Button  -->
             <button id="next" style="display: none;">Next</button>
 
+            <!-- End Of Quiz Results -->
+            <div class="results">
+
+            </div>
             <!-- Score -->
             <p id="score">Score:0/6</p>
         </div>
 
         <div class="score-area">
         </div>
-        
-          <!-- Timer -->
+
+        <!-- Timer -->
         <span id="timer"></span>
     </div>
     <script src="assets/js/script.js"></script>
