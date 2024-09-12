@@ -3,7 +3,7 @@
 
  
 ![Screenshot-General-Knowledge-Quiz]
-![Screensot of website on different devices](image-1.png)
+![Screensot of website on different devices]("C:\Users\emily\Downloads\general knowledge bytes.png")
 
 ### Existing Features
 
@@ -11,12 +11,12 @@ The Quiz Game Logo and Heading
 
 Featured at the top of the page, the Quiz Game logo and heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game.
 
-![image](https://github.com/user-attachments/assets/b99cbec7-5ef1-472c-a2d8-165a258b578a)
+![image](image.png))
 
 
 - __The Question Section__
 
--This section will allow the user to play the maths game. The user will be able to easily see the questions for the quiz game.
+-This section will allow the user to play the quiz game. The user will be able to easily see the questions for the quiz game.
 -The user will be able to select the question answer of there choice below the question.
 
 ![image](https://github.com/user-attachments/assets/e194f77f-00c3-4e7d-b604-edcba58b186c)
@@ -33,9 +33,31 @@ Featured at the top of the page, the Quiz Game logo and heading is easy to see f
 
 - __The Score Area__
 
--This section will allow the user to see exactly how many correct and incorrect answers they have provided out of 6.
+-This section will allow the user to see exactly how many correct and incorrect answers they have provided out of 8, with the correct answer button turning green and incorrect answer button will turn red.
 
 ![image](https://github.com/user-attachments/assets/715ab0b9-b295-4686-88b7-59ec0610f664)
+
+ __Restart Quiz Button__
+-This section will allow the user to see to have a choice at the end of the game when they have had there scored appear to choose wether they would like to restart the quiz or not.
+
+![image]("C:\Users\emily\OneDrive\Pictures\Screenshots\Screenshot 2024-09-12 203021.png")
+
+ __Quiz Timer__
+
+-This section the user will see a timer count down from 60seconds and will have this amount of time to finish the quiz otherwise an alert will appear.
+
+![image]("C:\Users\emily\OneDrive\Pictures\Screenshots\Screenshot 2024-08-08 200040.png")
+
+
+__Alert Message__
+- When the user has ran out of time a pop up message saying "Sorry You Have Ran Out Of Time" will appear on the quiz at the top and there time has ran out.
+
+![image](![alt text](image-2.png))
+
+__Footer__
+- I have added my personal details with my name and email at the bottom of the quiz for anybody who would like to speak to me personally about the game and is interested in my work.
+
+![image]("C:\Users\emily\OneDrive\Pictures\Screenshots\Screenshot 2024-09-12 203239.png")
 
 ### Features Left to Implement
 
@@ -50,7 +72,7 @@ Featured at the top of the page, the Quiz Game logo and heading is easy to see f
 - 
 ## Submit Button
 - I then also had issues with my submit button, i was able to display the submit button in the browser but it wouldnt work, I overcame this problem by instead of a submit button i used an event listner when the user clicked there answer along with display/block so that the user wasnt able to change there answer once chosen.
-  
+
 
 ### Validator Testing 
 
