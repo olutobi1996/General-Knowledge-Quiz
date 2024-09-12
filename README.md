@@ -40,24 +40,24 @@ Featured at the top of the page, the Quiz Game logo and heading is easy to see f
  __Restart Quiz Button__
 -This section will allow the user to see to have a choice at the end of the game when they have had there scored appear to choose wether they would like to restart the quiz or not.
 
-![image]("C:\Users\emily\OneDrive\Pictures\Screenshots\Screenshot 2024-09-12 203021.png")
+![image](![alt text](<Screenshot 2024-09-12 203021.png>))
 
  __Quiz Timer__
 
 -This section the user will see a timer count down from 60seconds and will have this amount of time to finish the quiz otherwise an alert will appear.
 
-![image]("C:\Users\emily\OneDrive\Pictures\Screenshots\Screenshot 2024-08-08 200040.png")
+![image](![alt text](<Screenshot 2024-09-12 204722.png>))
 
 
 __Alert Message__
 - When the user has ran out of time a pop up message saying "Sorry You Have Ran Out Of Time" will appear on the quiz at the top and there time has ran out.
 
-![image](![alt text](image-2.png))
+![image](![alt text](![alt text](<Screenshot 2024-09-12 204558.png>))
 
 __Footer__
 - I have added my personal details with my name and email at the bottom of the quiz for anybody who would like to speak to me personally about the game and is interested in my work.
 
-![image]("C:\Users\emily\OneDrive\Pictures\Screenshots\Screenshot 2024-09-12 203239.png")
+![image](![alt text](<Screenshot 2024-09-12 203239.png>))
 
 ### Features Left to Implement
 
