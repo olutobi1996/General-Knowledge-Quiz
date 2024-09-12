@@ -57,6 +57,24 @@ const questions = [
             { text: "Harry Potter and Philosophers Stone", correct: false },
             { text: "Harry Potter and Half Blood Prince", correct: false },
         ]
+    },
+    {
+        question: "What year did world war II end?",
+        answers: [
+            { text: "1950", correct: false },
+            { text: "1945", correct: true },
+            { text: "1960", correct: false },
+            { text: "1940", correct: false },
+        ]
+    },
+    {
+        question: "Where did sushi originate?",
+        answers: [
+            { text: "China", correct: false },
+            { text: "Fiji", correct: false },
+            { text: "South Korea", correct: false },
+            { text: "Japan", correct: true },
+        ]
     }
 ];
 
