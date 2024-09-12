@@ -81,17 +81,19 @@ const questions = [
 /* The code below will change
 the questions
 and the next question will be shown to 
-user using next button
+user using next button that is being fetched from 
+html
 */ 
 const questionElement = document.getElementById("question");
 const nextButton = document.getElementById("next");
 
 /* The code below represents
-the current question that is being
-asked
+the current question index and score 
+varibles
 */ 
 let currentQuestionIndex = 0;
 let score = 0;
+let MinScore = 7;
 
 // Timer variables
 let sec = 60;
@@ -116,7 +118,7 @@ function showQuestion() {
     resetState();
     let currentQuestion = questions[currentQuestionIndex];
     let questionNo = currentQuestionIndex + 1;
-    questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
+    questionElement.innerHTML = questionNo + "." + currentQuestion.question;
 
     currentQuestion.answers.forEach(answer => {
         const button = document.createElement("button");
@@ -137,6 +139,7 @@ function resetState() {
     document.getElementById("answer-buttons").innerHTML = "";
 }
 
+
 /* The code below is a loop 
 to see if the question answered is true
 and if correct the socre will add 1
@@ -147,7 +150,7 @@ function selectAnswer(e) {
     const isCorrect = selectedBtn.dataset.correct === "true";
     if (isCorrect) {
         score++;
-        document.getElementById("score").innerHTML = "Score: " + score + "/6";
+        document.getElementById("score").innerHTML = "Score: " + score + "/8";
         selectedBtn.classList.add("correct");
     } else {
         selectedBtn.classList.add("incorrect");
@@ -168,12 +171,13 @@ the quiz once the user is on the last question
 
 function nextQuestion() {
     currentQuestionIndex++;
-    if (currentQuestionIndex > 5) {
+    if (currentQuestionIndex > 8){
         startQuiz();
         return;
-    }
-    showQuestion();
+    } 
+         showQuestion(); 
 }
+
 
 //Timer function for questions
 
