@@ -3,7 +3,7 @@
 
  
 ![Screenshot-General-Knowledge-Quiz]
-![Screensot of website on different devices]("C:\Users\emily\Downloads\general knowledge bytes.png")
+![Screensot of website on different devices](![alt text](<Screenshot 2024-09-12 202330.png>))
 
 ### Existing Features
 
@@ -40,7 +40,7 @@ Featured at the top of the page, the Quiz Game logo and heading is easy to see f
  __Restart Quiz Button__
 -This section will allow the user to see to have a choice at the end of the game when they have had there scored appear to choose wether they would like to restart the quiz or not.
 
-![image](![alt text](<Screenshot 2024-09-12 203021.png>))
+![image](<Screenshot 2024-09-12 203021.png>))
 
  __Quiz Timer__
 
@@ -73,6 +73,8 @@ __Footer__
 ## Submit Button
 - I then also had issues with my submit button, i was able to display the submit button in the browser but it wouldnt work, I overcame this problem by instead of a submit button i used an event listner when the user clicked there answer along with display/block so that the user wasnt able to change there answer once chosen.
 
+### Updated Quiz Game
+- This new version of my quiz game has been updated newer version for the users, with a header element at the top of the page and below the header i have included a quiz game icon, below that we have the questions of the quiz with new questions. Below the questions we have an updated score with different color format and also a timer of 60seconds for the user to complete the quiz, with a message that pops up and alerts the user when time has ran out. To finish off at the bottom of the page there is my personal details within the footer element for any user who would like to get in contact and see my other work.
 
 ### Validator Testing 
 
