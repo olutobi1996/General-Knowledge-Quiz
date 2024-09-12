@@ -11,7 +11,7 @@ The Quiz Game Logo and Heading
 
 Featured at the top of the page, the Quiz Game logo and heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game.
 
-![image](image.png))
+![image](![alt text](<Screenshot 2024-09-12 210002.png>))
 
 
 - __The Question Section__
