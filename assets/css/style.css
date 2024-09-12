@@ -6,6 +6,14 @@ body {
     font-style: normal;
     text-align: center;
 }
+
+/* Header */
+ body, header {
+    font-weight: 400;
+    font-family: fantasy;
+    color: black;
+}
+
 /* Style for question boxes */
 .q-box {
     background-color: white;
@@ -85,3 +93,4 @@ footer {
     width: 100%;
     display: block;
   }
+
