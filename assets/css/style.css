@@ -9,7 +9,7 @@ body {
 /* Style for question boxes */
 .q-box {
     background-color: white;
-    max-width: 400px;
+    max-width: 500px;
     width: 80%;
     margin: 100px auto 0;
     border-radius: 5px;
