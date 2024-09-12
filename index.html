@@ -2,13 +2,13 @@
 <html lang="en">
 
 <head>
-      <!-- Title -->
-      <title>General Knowledge Quiz</title>
-   <!-- Favicon -->
-   <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-   <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-   <link rel="manifest" href="assets/site.webmanifest">
+    <!-- Title -->
+    <title>General Knowledge Quiz</title>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/site.webmanifest">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,42 +24,45 @@
 </head>
 
 <body>
+    <!-- Header at the top of the page -->
+
     <head>Welcome to the most enjoyable Quiz yet!</head>
     <!-- Question Box -->
-    <div class="q-box">
+    <main>
+        <div class="q-box">
+            <!-- Quiz Icon -->
+            <img src="assets/images/quiz-icon.png" alt="Quiz Game Icon" style="width:180px;px;height:180px;px;">
+            <h1> General Knowledge Quiz</h1>
+            <div class="quiz">
+                <h2 id="question"> Question Goes here</h2>
 
-        <!-- Quiz Icon -->
-        <img src="assets/images/quiz-icon.png" alt="Quiz Game Icon" style="width:180px;px;height:180px;px;">
-        <h1> General Knowledge Quiz</h1>
-        <div class="quiz">
-            <h2 id="question"> Question Goes here</h2>
+                <!-- Answer Buttons -->
+                <div id="answer-buttons">
+                    <button class="btn">Answer 1</button>
+                    <button class="btn">Answer 2</button>
+                    <button class="btn">Answer 3</button>
+                    <button class="btn">Answer 4</button>
+                </div>
 
-            <!-- Answer Buttons -->
-            <div id="answer-buttons">
-                <button class="btn">Answer 1</button>
-                <button class="btn">Answer 2</button>
-                <button class="btn">Answer 3</button>
-                <button class="btn">Answer 4</button>
+                <!-- Next Button  -->
+                <button id="next" style="display: none;">Next</button>
+                <button class="restart-btn">Restart Quiz</button>
+                <!-- Score -->
+                <p id="score">Score:0/6</p>
             </div>
 
-            <!-- Next Button  -->
-            <button id="next" style="display: none;">Next</button>
-            <button class="restart-btn">Restart Quiz</button>
-            <!-- Score -->
-            <p id="score">Score:0/6</p>
-        </div>
+            <div class="score-area">
+            </div>
 
-        <div class="score-area">
+            <!-- Timer -->
+            <span id="timer"></span>
         </div>
-
-        <!-- Timer -->
-        <span id="timer"></span>
-    </div>
-     
+    </main>
     <!-- Footer -->
     <footer>
         <p>Creator: Olutobi Adebayo-Rowling<br>
-            <a href="olutobi1997@icloud.com">olutobi1997@icloud.com</a></p>
+            <a href="olutobi1997@icloud.com">olutobi1997@icloud.com</a>
+        </p>
         </ul>
     </footer>
 
