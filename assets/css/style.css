@@ -1,3 +1,4 @@
+/* Style for all body elements */
 body {
     background-color: blueviolet;
     font-family: "Indie Flower", cursive;
@@ -5,7 +6,7 @@ body {
     font-style: normal;
     text-align: center;
 }
-
+/* Style for question boxes */
 .q-box {
     background-color: white;
     max-width: 400px;
@@ -14,7 +15,7 @@ body {
     border-radius: 5px;
     padding: 20px;
 }
-
+/* Style for buttons */
 .btn {
     background-color: white;
     padding: 20px;
@@ -25,10 +26,11 @@ body {
     cursor: pointer;
 }
 
+/* Button hover style */
 .btn:hover {
     background-color: blueviolet;
 }
-
+/* Next button style */
 #next {
     background-color: white;
     color: hsl(252, 54%, 61%);
@@ -39,6 +41,7 @@ body {
     cursor: pointer;
 }
 
+/* Style for when user answers questions right or wrong */
 .correct {
     background-color: #7cc558;
 }
@@ -48,6 +51,7 @@ body {
     background-color: #ff0000;
 }
 
+/* Timer below quiz section style */
 #timer {
     font-weight: 400;
     font-style: italic;
@@ -55,6 +59,7 @@ body {
     color: #ff0000;
 }
 
+/* Score style */
 #score {
     font-weight: 400;
     font-style: italic;
@@ -62,6 +67,7 @@ body {
     color: #7cc558;
 }
 
+/* Restart button style */
 .restart-btn {
     background-color: white;
     color: hsl(252, 54%, 61%);
@@ -71,3 +77,11 @@ body {
     border: 5px solid #000;
     cursor: pointer;
 }
+
+/* footer */
+footer {
+    margin-top: auto;
+    display: flex;
+    width: 100%;
+    display: block;
+  }
