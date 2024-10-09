@@ -87,6 +87,13 @@ const questions = [
   */
   const questionElement = document.getElementById("question");
   const nextButton = document.getElementById("next");
+
+  function welcomeTheUser() {
+    const
+        firstName = document.getElementById("first-name").value,
+        lastName = document.getElementById("last-name").value;
+    alert(`Welcome ${firstName} ${lastName}`);
+}
   
   /* The code below represents
   the current question index and score 
@@ -199,8 +206,10 @@ const questions = [
     sec--;
     if (sec == -1) {
       clearInterval(time);
-      alert("Your Time Is Up, Sorry!");
+      alert("Your Time Is Up, Sorry!")
+      return  resetState();
     }
+   
   }
   
   /* this event listener will reload quiz 
@@ -213,5 +222,5 @@ const questions = [
   });
   
   //Start Quiz funtion (this code is my own)
-  startQuiz();
+  startQuiz()
   
