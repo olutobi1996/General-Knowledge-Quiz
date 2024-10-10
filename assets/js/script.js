@@ -79,22 +79,34 @@ const questions = [
     },
   ];
   
-  /* The code below will change
+  //const variables for quiz
+  const questionElement = document.getElementById("question");
+  const nextButton = document.getElementById("next");
+  const firstName = document.getElementById("first-name").value,
+  const lastName = document.getElementById("last-name").value;
+  
+  const audio = new Audio("https://www.fesliyanstudios.com/play-mp3/387");
+  const buttons = document.querySelectorAll("button");
+
+
+//audio for buttons
+buttons.forEach(button => {
+  button.addEventListener("click", () => {
+    audio.play();
+  });
+});
+
+    /* The code below will change
   the questions
   and the next question will be shown to 
   user using next button that is being fetched from 
   html (this code is my own)
   */
-  const questionElement = document.getElementById("question");
-  const nextButton = document.getElementById("next");
-
   function welcomeTheUser() {
-    const
-        firstName = document.getElementById("first-name").value,
-        lastName = document.getElementById("last-name").value;
+    document.getElementById( 'startQuiz' ).style.display = 'none';
     alert(`Welcome ${firstName} ${lastName}`);
+    button.addEventListener("click", welcomeTheUser);
 }
-  
   /* The code below represents
   the current question index and score 
   varibles (this code is my own)
@@ -222,5 +234,5 @@ const questions = [
   });
   
   //Start Quiz funtion (this code is my own)
-  startQuiz()
+  startQuiz();
   
