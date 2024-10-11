@@ -56,7 +56,20 @@ __Alert Message__
 __Footer__
 - I have added my personal details with my name and email at the bottom of the quiz for anybody who would like to speak to me personally about the game and is interested in my work.
 
+### Manual Testing Steps
+The final general knowledge quiz has made a few adjustments since the first deployment, here i explaina manual testing walkthrough to the quiz.
 
+When the user joins the website they will be be shown a block displaying the placeholder text "enter first name" & "enter last name" and a "welcome button" one the user has entered there first name and last name and press the welcome button they will be taken to the general knowledge quiz.
+
+Once at the general knowledge quiz they will be shown the question and 4 answers (multiple choice question), below this there will be a "restart Quiz" button they can use at any point, incase they click the wrong answer or just wanted to start again.There will also be  with there score displaying at the bottom out of 8 and the timer going simultaneously. Below will also show the creator of the quiz and they will have a link to my email also.
+
+Now at the game playing stage the user will be able to choose 1 out of the 4 answers they think is right, as they hover over the question with there mouse the curser pointer will be shown and there question that they hover over will change colour, this helps the user know they are clicking the right answer they choose. After they have clicked there answer the question they choose will be either red or green showing the user if they have the right answer or not straight away.
+
+During the quiz the user will have 60s to complete the quiz, if they fail to complete this in time the timer will run out and a pop up message will apear saying "Your Time Is Up, Sorry!". Once this appears the quiz will freeze and they will no be able to continue, once they have clicked the ok button on the pop up message the quiz will return to the start and restart quiz function will have been initiated.
+
+If the user gets to the end of the quiz in time there will be another block message that gives the user a "congratulations you finished the quiz" message and there score out of 8. They will will also have the option to continue again to replay the quiz with the restart quiz button.
+
+This is my manual testing steps guide for users who would like to enjoy the quiz i created, thank you i hope you enjoy!
 
 ### Features Left to Implement
 
@@ -107,7 +120,7 @@ The live link can be found here - https://olutobi1996.github.io/General-Knowledg
 
 
 ## Credits 
-
+The general knowledge quiz was partly inspired by code institue project module walk through 2, this project i done as a practice walk through helped me get more understanding on how javascript worked. As this is a completely new language for me it helped me go through back through the javascript essentials module and get more understanding on how to write functions, call functions and correct syntax of writing variables and different elements for the quiz game. As you can see in my script.js code i have referenced what functions were inspired by the code institute love maths walk through project. 
 
 ### Content 
 
